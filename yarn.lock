@@ -558,10 +558,10 @@
   resolved "https://registry.yarnpkg.com/@vue/tsconfig/-/tsconfig-0.5.1.tgz#3124ec16cc0c7e04165b88dc091e6b97782fffa9"
   integrity sha512-VcZK7MvpjuTPx2w6blwnwZAu5/LgBUtejFOi3pPGQFXQN5Ela03FUtd2Qtg4yWGGissVL0dr6Ro1LfOFh+PCuQ==
 
-"@webav/av-cliper@^0.4.1":
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/@webav/av-cliper/-/av-cliper-0.4.1.tgz#6e1b5ed223d37f542b5543e4915cc5bd1919df63"
-  integrity sha512-n4zX0aswRuKHUQO4/2wNTxXqJEwWcWq/10UqPlUv5UuakVZ/lSomhbzrhQ21CXUSBoXnNv+H9vtKu5ipZqpzuQ==
+"@webav/av-cliper@^0.4.2":
+  version "0.4.2"
+  resolved "https://registry.yarnpkg.com/@webav/av-cliper/-/av-cliper-0.4.2.tgz#28a10dd3ef5b117a0213291b23ff48a02a5dfa42"
+  integrity sha512-W3mVGg2SSzqT68iE4SGy1T7Ij4JjyEM1ITKFUSkLxzOKgMEiskyUWwfYi4Vj9WlBegUaVMkyBaap+jaT+a9WFg==
   dependencies:
     "@types/dom-webcodecs" "^0.1.7"
     "@webav/mp4box.js" "0.5.3-fenghen"

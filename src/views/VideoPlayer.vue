@@ -1,7 +1,7 @@
 <template>
   <div>
     <button @click="start">启动！</button>
-    <video :src="video" controls autoPlay></video>
+    <video :src="video" controls autoPlay style="width: 800px; height: 500px"></video>
     <div v-for="(item, index) in list" :key="index">
       <img :src="item.img" alt="" />
     </div>
@@ -11,7 +11,7 @@
 <script setup lang="ts">
 import { Combinator, MP4Clip } from '@webav/av-cliper'
 import { onMounted, ref } from 'vue'
-import video from '@/assets/trailer.mp4'
+import video from '@/assets/video2.mp4'
 const list = ref<any[]>([])
 onMounted(async () => {
   console.log(await Combinator.isSupported())
